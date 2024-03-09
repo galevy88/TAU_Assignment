@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Select Visualization Parameters</title>
+</head>
+<body>
+    <h2>Select Brain Area for Visualization</h2>
+    <form action="/plot" method="get">
+        <label for="area_name">Brain Area:</label>
+        <select name="area_name" id="area_name">
+            <option value="All">All</option>
+            {% for area in brain_areas %}
+                <option value="{{ area }}">{{ area }}</option>
+            {% endfor %}
+        </select>
+        <br><br>
+
+        <label for="mode">Visualization Mode:</label>
+        <select name="mode" id="mode">
+            <option value="color">Color</option>
+            <option value="md_value">MD Value</option>
+        </select>
+        <br><br>
+
+        <label for="color_sub">Color Sub-Areas:</label>
+        <input type="checkbox" id="color_sub" name="color_sub" value="true">
+        <br><br>
+
+        <input type="submit" value="Visualize">
+    </form>
+</body>
+</html>

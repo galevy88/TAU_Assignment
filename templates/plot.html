@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Brain Area Visualization</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <h2>Brain Area Visualization</h2>
+    <div id="plot"></div>
+
+    <script>
+        const graphJSON = {{ graphJSON|safe }};
+        Plotly.newPlot('plot', graphJSON.data, graphJSON.layout);
+    </script>
+</body>
+</html>
