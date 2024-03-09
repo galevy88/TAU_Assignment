@@ -107,7 +107,7 @@ brain_area_colors = {
     },
     "Cerebellum": {
         "color": "#eb4b4b",
-        "sub_areas": {}  # Assuming no sub-areas for simplification
+        "sub_areas": {}
     }
 }
 

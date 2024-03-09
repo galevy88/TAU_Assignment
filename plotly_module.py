@@ -2,7 +2,6 @@ import plotly.graph_objects as go
 import numpy as np
 from helpers import get_data, get_dicts
 
-# Load data and dictionaries
 md_data, atlas_data = get_data()
 brain_areas, brain_area_colors = get_dicts()
 
