@@ -1,5 +1,5 @@
 # Yaniv Assaf Lab Assignment – Gal Levy
-
+## For PDF Assignment Report You Can See Yaniv Assaf Lab Assignment - Gal Levy.pdf In This Repo
 ## Pre-Abstract
 In this assignment, I explore the spatial distribution of mean diffusivity across various brain regions using Python to analyze NIfTI-formatted neuroimaging data. The goal is to process a mean-diffusivity map and a registered atlas, remove outliers, and calculate the average mean diffusivity for indexed brain regions. This analysis aims to enhance our understanding of mean diffusivity's significance across different areas of the brain.
 
